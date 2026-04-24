@@ -1,0 +1,11 @@
+{
+  "name": "سند - تطبيق الداعم والمستفيد",
+  "description": "منصة لتوصيل المساعدات المالية بين الداعمين والمستفيدين مع نظام تحقق آمن وتتبع للحالات.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "firebase",
+    "rtl-support"
+  ]
+}

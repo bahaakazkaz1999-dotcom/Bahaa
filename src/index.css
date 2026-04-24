@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #4f46e5;
+  --color-primary-dark: #4338ca;
+  --color-primary-light: #eef2ff;
+}
+
+body {
+  direction: rtl;
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+.shadow-sleek {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-sm border border-slate-200/50;
+}
